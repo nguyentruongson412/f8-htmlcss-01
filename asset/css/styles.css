@@ -121,7 +121,6 @@ a {
     margin-top: 8px;
     font-weight: 700;
     font-size: 6.2rem;
-    line-height: 1.19;
     color: #000336;
 }
 
@@ -160,20 +159,28 @@ a {
     margin-top: 23px;
     font-weight: 500;
     font-size: 1.6rem;
-    line-height: 1.25;
     color: #7d8589;
 }
 
 .clients .image {
     display: flex;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
     align-items: center;
 }
 
-.clients .image img {
-    padding: 32px 41px 23px 42px;
+.clients .image a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
+.clients .image a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 91px;
+    width: 204px;
+}
+
 
 /* =================== Guides ==================== */
 
@@ -186,7 +193,6 @@ a {
     position: relative;
     font-weight: 600;
     font-size: 3.5rem;
-    line-height: 1;
     text-align: center;
     color: #000339;
 }
@@ -228,7 +234,6 @@ a {
     margin-top: 24px;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 1.1;
     color: #3b3c45;
 }
 
@@ -284,7 +289,6 @@ a {
     align-items: center;
     font-weight: 600;
     font-size: 1.8rem;
-    line-height: 1.5;
     color: #0689ff;
 }
 
@@ -353,7 +357,6 @@ a {
 .featured-item .info span {
     font-weight: 500;
     font-size: 1.4rem;
-    line-height: 1;
     color: #444444;
 }
 
